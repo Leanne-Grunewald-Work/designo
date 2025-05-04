@@ -1,35 +1,35 @@
-# Designo Agency Portfolio
+# Audiophile eCommerce Store
 
-A fully responsive Laravel-powered portfolio website for a fictional creative agency. Built to showcase design work in Web, App, and Graphic categories — with a modern UI and admin panel to manage projects.
+A custom-built WooCommerce-powered eCommerce site for a fictional audio brand. Developed as a fully responsive WordPress theme, styled with TailwindCSS and powered by ACF for dynamic product and layout control.
 
 **Live Site:**  
-[https://designo.leannegrunewald.co.za](https://designo.leannegrunewald.co.za)
+[https://audiophile.leannegrunewald.co.za](https://audiophile.leannegrunewald.co.za)
 
 ---
 
 ## Preview
 
-![Screenshot of Designo Site](https://leannegrunewald.co.za/assets/img/project-designo.jpg)
+![Screenshot of Audiophile Site](https://leannegrunewald.co.za/assets/img/project-audiophile.jpg)
 
 ---
 
 ## Features
 
-- Public-facing portfolio for Web, App, and Graphic design
-- Admin login with dashboard (Laravel Breeze)
-- Full CRUD functionality for projects
-- Filtered project views by category
-- Static pages like "Our Company", "Locations", and "Contact"
-- Fully responsive layout with TailwindCSS
-- Built with Laravel 11 + Vite
+- WooCommerce integration for cart and checkout
+- Custom-built WordPress theme based on Frontend Mentor’s Audiophile design
+- Modular home, product, and category layouts using ACF
+- Fully responsive and optimised for mobile
+- Styled with TailwindCSS
+- Clean code using WordPress theme best practices
 
 ---
 
 ## Tech Stack
 
-- **Laravel 11** with Laravel Breeze (Blade)
-- **TailwindCSS** for styling
-- **Vite** for asset bundling
+- **WordPress**
+- **WooCommerce**
+- **TailwindCSS**
+- **Advanced Custom Fields (ACF)**
 - **PHP 8.2**, **MySQL**, **Live deployment** on Afrihost shared hosting
 
 ---
@@ -37,27 +37,30 @@ A fully responsive Laravel-powered portfolio website for a fictional creative ag
 ## Setup Instructions
 
 ```bash
-git clone https://github.com/Leanne-Grunewald-Work/designo.git
-cd designo
+# Clone the theme into a local WordPress install
+cd wp-content/themes/
+git clone https://github.com/Leanne-Grunewald-Work/audiophile.git
 
-composer install
-npm install
-cp .env.example .env
-php artisan key:generate
+# Activate the theme via the WordPress admin panel
 
-# Set your DB credentials in .env
+# Ensure the following plugins are installed:
+- Advanced Custom Fields
+- WooCommerce
 
-php artisan migrate
-npm run build
-php artisan serve
+# Import demo content or use WP Admin to configure content
 
 ```
 
 ## Future Enhancements (Ideas)
 
-- Role-based access for multiple users
-- Contact form functionality
-- Light/Dark theme toggle
+- Product search and filtering
+- Customer account area
+- Improved accessibility and performance
+- Payment gateway integrations
+
+## Design Credit
+
+This site is based on the [Audiophile eCommerce Challenge](https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx) by [Frontend Mentor](https://www.frontendmentor.io/)
 
 ## About the Developer
 
