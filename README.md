@@ -19,7 +19,7 @@ A fully responsive Laravel-powered portfolio website for a fictional creative ag
 - Admin login with dashboard (Laravel Breeze)
 - Full CRUD functionality for projects
 - Filtered project views by category
-- Static pages: “Our Company”, “Locations”, and “Contact”
+- Static pages like "Our Company", "Locations", and "Contact"
 - Fully responsive layout with TailwindCSS
 - Built with Laravel 11 + Vite
 
