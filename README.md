@@ -59,6 +59,10 @@ php artisan serve
 - Contact form functionality
 - Light/Dark theme toggle
 
+## Design Credit
+
+This site is based on the [Designo multi-page website Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) by [Frontend Mentor](https://www.frontendmentor.io/)
+
 ## About the Developer
 
 Built by [Leanne Grunewald](https://leannegrunewald.co.za), a full-stack web developer with a love for creative, clean code and modern web experiences.
